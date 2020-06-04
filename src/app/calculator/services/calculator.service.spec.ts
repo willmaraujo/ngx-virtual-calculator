@@ -18,5 +18,17 @@ describe('CalculatorService', () => {
     inject([CalculatorService], (mService: CalculatorService) => {
       const sum = mService.calculate(1, 4, CalculatorService.SUM);
       expect(sum).toEqual(5);
+    }));
+
+  it('it must ensure that 2 * 3 = 6',
+    inject([CalculatorService], (mService: CalculatorService) => {
+      const mult = mService.calculate(2, 3, CalculatorService.MULT);
+      expect(mult).toEqual(6);
+    }));
+
+  it('it must ensure that operation is invalid',
+    inject([CalculatorService], (mService: CalculatorService) => {
+      const result = mService.calculate(2, 3, "invalidajsi");
+      expect(result).toEqual(0);
     }))
 });
