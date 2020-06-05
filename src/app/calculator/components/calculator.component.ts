@@ -24,7 +24,7 @@ export class CalculatorComponent implements OnInit {
    */
   clear(): void {
     this.n1 = '0';
-    this.n2 = '0';
+    this.n2 = null;
     this.result = null;
     this.operation = null;
   }
