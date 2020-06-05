@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'ngx-ngx-virtual-calculator',
+  selector: 'ngx-virtual-calculator',
   template: `
     <p>
       ngx-virtual-calculator works!
