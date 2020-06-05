@@ -28,7 +28,7 @@ describe('CalculatorService', () => {
 
   it('it must ensure that operation is invalid',
     inject([CalculatorService], (mService: CalculatorService) => {
-      const result = mService.calculate(2, 3, "invalidajsi");
+      const result = mService.calculate(2, 3, 'invalidajsi');
       expect(result).toEqual(0);
     }))
 });
