@@ -120,6 +120,46 @@
           }
         }
       }
+    },
+    "ngx-virtual-calculator": {
+      "projectType": "library",
+      "root": "projects/ngx-virtual-calculator",
+      "sourceRoot": "projects/ngx-virtual-calculator/src",
+      "prefix": "ngx",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ngx-virtual-calculator/tsconfig.lib.json",
+            "project": "projects/ngx-virtual-calculator/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-virtual-calculator/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-virtual-calculator/src/test.ts",
+            "tsConfig": "projects/ngx-virtual-calculator/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-virtual-calculator/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ngx-virtual-calculator/tsconfig.lib.json",
+              "projects/ngx-virtual-calculator/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "calculator"
 }

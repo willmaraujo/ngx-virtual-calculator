@@ -14,7 +14,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-virtual-calculator": [
+        "dist/ngx-virtual-calculator/ngx-virtual-calculator",
+        "dist/ngx-virtual-calculator"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
