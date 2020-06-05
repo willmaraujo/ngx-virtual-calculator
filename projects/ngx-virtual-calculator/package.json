@@ -1,6 +1,23 @@
 {
   "name": "ngx-virtual-calculator",
   "version": "0.0.1",
+  "description": "A simple virtual calculator component to be used in Angular projects",
+  "author": "Williams Araujo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crfwilliams/ngx-virtual-calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crfwilliams/ngx-virtual-calculator/issues"
+  },
+  "homepage": "https://github.com/crfwilliams/ngx-virtual-calculator",
+  "keywords": [
+    "angular",
+    "javascript",
+    "typescript",
+    "calculator"
+  ],
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^9.1.9",
     "@angular/core": "^9.1.9"
