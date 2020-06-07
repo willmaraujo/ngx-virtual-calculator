@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NgxVirtualCalculatorModule } from 'ngx-virtual-calculator';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { NgxVirtualCalculatorModule } from 'ngx-virtual-calculator';
   ],
   imports: [
     BrowserModule,
-    NgxVirtualCalculatorModule
+    NgxVirtualCalculatorModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
