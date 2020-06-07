@@ -4,7 +4,7 @@ import {NgxVirtualCalculatorService} from './ngx-virtual-calculator.service';
 @Component({
   selector: 'ngx-virtual-calculator',
   templateUrl: './ngx-virtual-calculator.component.html',
-  styles: ['./ngx-virtual-calculator.component.css']
+  styleUrls: ['./ngx-virtual-calculator.component.css']
 })
 export class NgxVirtualCalculatorComponent implements OnInit {
 
