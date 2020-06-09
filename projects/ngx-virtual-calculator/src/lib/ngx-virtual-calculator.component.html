@@ -1,10 +1,8 @@
 <div id="calculator">
   <div class="top">
     <span class="clear" (click)="clear()">C</span>
-    <div>
-      <input class="screen" type="text" class="form-control text-right kz-input-text" id="display" name="display"
-                [value]="display" readonly>
-    </div>
+    <input type="text" class="form-control text-right kz-input-text result" id="display" name="display"
+      [value]="display" readonly>
   </div>
 
   <div class="keys">

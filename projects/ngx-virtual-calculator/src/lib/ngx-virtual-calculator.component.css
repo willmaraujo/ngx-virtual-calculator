@@ -22,10 +22,7 @@ html {
 #calculator {
 	width: 325px;
 	height: auto;
-	
-	margin: 100px auto;
 	padding: 20px 20px 9px;
-	
 	background: #9dd2ea;
 	background: linear-gradient(#9dd2ea, #8bceec);
 	border-radius: 3px;
@@ -38,7 +35,7 @@ html {
 }
 
 /* Inset shadow on the screen to create indent */
-.top .screen {
+.result {
 	height: 40px;
 	width: 212px;
 	
