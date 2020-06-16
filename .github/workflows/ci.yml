@@ -30,6 +30,6 @@ jobs:
     - name: Run a multi-line script
       run: |
         echo Build,
-        cd projects-ngx-virtual-calculator,
+        cd projects/ngx-virtual-calculator,
         ng build ngx-virtual-calculator,
         ng test ngx-virtual-calculator.
