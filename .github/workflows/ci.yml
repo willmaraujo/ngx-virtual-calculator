@@ -21,8 +21,10 @@ jobs:
     steps: 
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v1
+    - uses: ahmedrizwan/angular-karma-test-action@v1.0.8
     - run: npm install
     - run: npm install -g @angular/cli > /dev/null
     - run: npm install projects/ngx-virtual-calculator
     - run: ng build ngx-virtual-calculator
-    - run: ng test ngx-virtual-calculator
+    - name: Angular run Karma tests
+      run: ng test ngx-virtual-calculator
