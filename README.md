@@ -1,6 +1,14 @@
-# Calculator  
+<div align="center" >
 
-![CI](https://github.com/willmaraujo/ngx-virtual-calculator/workflows/CI/badge.svg)
+<p align="center">
+  <img width="140" height="140" src="https://github.com/willmaraujo/ngx-virtual-calculator/blob/master/assets/icon.png?raw=true"    alt="NgxVirtualCalculator logo"/>
+  
+  ![CI](https://github.com/willmaraujo/ngx-virtual-calculator/workflows/CI/badge.svg)
+</p>
+<hr />
+</div>
+
+# NgxVirtualCalculator  
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
