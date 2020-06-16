@@ -24,5 +24,6 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
     - run: npm install
+    - run: npm install projects/ngx-virtual-calculator
     - run: ng build projects/ngx-virtual-calculator
     - run: ng test projects/ngx-virtual-calculator
